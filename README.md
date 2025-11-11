@@ -3,9 +3,9 @@ Códigos das aula de lab.
 # Testes Cypress - E-commerce Playground
 
 ## Instalação das dependências
-Instale o Cypress e o Mochawesome:
+Instale as dependencias:
 ```bash
-npm install cypress mochawesome --save-dev
+npm install
 ```
 
 ## Iniciar o Cypress
