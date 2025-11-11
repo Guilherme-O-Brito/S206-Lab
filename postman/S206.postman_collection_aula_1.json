@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "909bc162-b630-4793-8918-fb2a4380aa72",
+		"name": "S206",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49961543",
+		"_collection_link": "https://turbo-papo09-8794352.postman.co/workspace/Turbo's-Workspace~bb5a3350-b548-457f-80c0-624c7666bdd5/collection/49961543-909bc162-b630-4793-8918-fb2a4380aa72?action=share&source=collection_link&creator=49961543"
+	},
+	"item": [
+		{
+			"name": "localiza pokemon com sucesso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/ralts",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"ralts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "não acha pokemon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemon/fiDoBill",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemon",
+						"fiDoBill"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Endpoint Falhou em localizar",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pokeapi.co/api/v2/pokemo/ralts",
+					"protocol": "https",
+					"host": [
+						"pokeapi",
+						"co"
+					],
+					"path": [
+						"api",
+						"v2",
+						"pokemo",
+						"ralts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
